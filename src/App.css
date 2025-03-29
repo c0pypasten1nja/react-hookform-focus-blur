@@ -1,0 +1,78 @@
+/* src/App.css */
+
+.container {
+  padding: 3rem;
+  font-family: Arial, sans-serif;
+  max-width: 400px;
+  margin: auto;
+  text-align: center;
+}
+
+.heading {
+  font-size: 2rem;
+  margin-bottom: 2rem;
+  color: #333;
+}
+
+.form {
+  position: relative;
+}
+
+.input-group {
+  position: relative;
+  margin-bottom: 3rem;
+}
+
+.input {
+  padding: 0.75rem 1rem;
+  font-size: 1rem;
+  width: 100%;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  outline: none;
+  box-sizing: border-box;
+}
+
+.tooltip {
+  position: absolute;
+  top: 3rem;
+  left: 0;
+  background: #f0f0f0;
+  border: 1px solid #ccc;
+  padding: 0.5rem 1rem;
+  border-radius: 6px;
+  font-size: 0.9rem;
+  color: #333;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  z-index: 10;
+}
+
+.error {
+  color: red;
+  margin-top: 0.5rem;
+  font-size: 0.85rem;
+}
+
+.button {
+  padding: 0.75rem 2rem;
+  font-size: 1rem;
+  border: none;
+  border-radius: 6px;
+  background: #4caf50;
+  color: white;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.button:hover {
+  background: #43a047;
+}
+
+.welcome {
+  font-size: 1.5rem;
+  color: #2e7d32;
+  background: #e8f5e9;
+  padding: 1.5rem;
+  border-radius: 10px;
+  border: 1px solid #c8e6c9;
+}
